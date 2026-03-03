@@ -16,10 +16,9 @@
 git clone https://github.com/tuusuario/rut-generator.git
 cd rut-generator
 pip install -r requirements.txt  # Solo necesita Python stdlib
+```
 
-
-
-# USO
+## 🚀 USO
 
 # Generar 50 RUTs con guión (por defecto)
 python rutgen.py
