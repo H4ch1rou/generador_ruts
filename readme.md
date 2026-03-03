@@ -21,10 +21,14 @@ pip install -r requirements.txt  # Solo necesita Python stdlib
 ## 🚀 USO
 
 # Generar 50 RUTs con guión (por defecto)
+```python
 python rutgen.py
-
+```
 # 1000 RUTs sin guión, rango específico
+```python
 python rutgen.py -c 1000 -f 2 -i 10000000 -e 25000000 -o diccionario.txt
-
+```
 # Rango completo (1M-40M), solo número base
+```python
 python rutgen.py -c 5000 -f 3 -o ruts_sindv.txt
+```
